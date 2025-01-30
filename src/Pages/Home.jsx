@@ -4,9 +4,6 @@ function Home() {
   return (
     <div 
       className="h-screen flex flex-col justify-center items-center bg-cover bg-center"
-      style={{
-        backgroundImage: 'url("/e-commerce.jpg")', 
-      }}
     >
       <h1 className="text-4xl font-extrabold text-center text-indigo-600 drop-shadow-lg">
         Welcome to Hamro Pasal
