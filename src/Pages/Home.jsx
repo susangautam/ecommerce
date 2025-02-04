@@ -5,7 +5,7 @@ function Home() {
     <div
       className="h-screen flex flex-col justify-center items-center bg-cover bg-center relative"
       style={{
-        backgroundImage: "url('/public/e-commerce.jpg')", // Make sure the image exists in public folder
+        backgroundImage: "url('/public/e-commerce.jpg')", 
       }}
     >
       {/* Dark overlay for better contrast */}

@@ -24,7 +24,7 @@ function Cart() {
               <li key={item.id} className="flex justify-between items-center p-4 border border-gray-300 rounded-lg shadow-sm">
                 <div>
                   <p className="text-lg font-semibold">{item.name}</p>
-                  <p className="text-sm text-gray-600">${item.price.toFixed(2)}</p>
+                  <p className="text-sm text-gray-600">Rs {item.price.toFixed(2)}</p>
                 </div>
                 <button
                   onClick={() => removeFromCart(item.id)}
@@ -37,7 +37,7 @@ function Cart() {
           </ul>
 
           <div className="mt-6 text-center">
-            <p className="text-xl font-bold text-gray-700">Total: ${totalPrice.toFixed(2)}</p>
+            <p className="text-xl font-bold text-gray-700">Total: Rs {totalPrice.toFixed(2)}</p>
             <Link to="/payment">
               <button className="mt-4 bg-indigo-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg transform transition-all hover:bg-indigo-700 hover:scale-105">
                 Proceed to Payment
