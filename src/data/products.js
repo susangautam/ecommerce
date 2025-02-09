@@ -1,5 +1,5 @@
 const products = [
-    { id: 1, name: " Dell Laptop", price: 33000, category: "Electronics", image: "/public/laptop1.jpg" },
+    { id: 1, name: " Dell Laptop", price: 33000, category: "Electronics", image: "laptop1.jpg" },
     { id: 2, name: "Sonos Ace Headphones", price: 7999, category: "Electronics", image: "headphones1.jpg" },
     { id: 3, name: "Adidas Shoes", price: 4900  , category: "Fashion", image: "shoe1.jpg" },
     { id: 4, name: "Dirt Bike Helmet", price: 2100  , category: "Automotive", image: "automotive1.jpg" },

@@ -12,7 +12,7 @@ function ProductCard({ product }) {
       <p className="text-gray-700 text-xl mb-2">Rs {product.price}</p>
       <button
         onClick={() => addToCart(product)}
-        className="bg-indigo-600 text-white px-4 py-2 mt-2 rounded hover:bg-indigo-700 transition duration-300"
+        className="bg-indigo-600 text-white px-4 py-2 mt-2 rounded hover:bg-indigo-200 cursor-pointer transition duration-300"
       >
         Add to Cart
       </button>
