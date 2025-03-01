@@ -8,7 +8,7 @@ function Home() {
         backgroundImage: "url('/public/e-commerce.jpg')", 
       }}
     >
-      {/* Dark overlay for better contrast */}
+     
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Content */}
